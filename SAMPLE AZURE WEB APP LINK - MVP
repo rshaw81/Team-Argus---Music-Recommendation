@@ -1,0 +1,28 @@
+                             PROGRAM (Sample Flask Python program to be deployed through Azure)
+
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route("/")
+def home():
+    return "Hello World! Welcome. This is Team Argus"
+
+
+if __name__=="__main__":
+    app.run() 
+    
+                          AZURE WEB APP LINK
+                         
+Using Visual Studio Code and Microsoft Azure App, we had created an web app whose link is https://firstazurewebappbytab.azurewebsites.net/ 
+
+                              REFERENCE
+
+https://www.youtube.com/watch?v=DPBspKl2epk - From Zero to Azure with Python & Visual Studio Code
+https://www.youtube.com/watch?v=Oh1NU_3N0vw - Download And Install Docker On Windows 10 | Docker is not recognized as an internal command Fixed
+https://www.youtube.com/watch?v=YFUhdxI4kcA - Docker Daemon is not running | How to start docker deamon in windows | Docker run hello-world
+
+https://docs.microsoft.com/en-ca/windows/wsl/about
+https://stackoverflow.com/questions/51119495/how-to-setup-environment-variables-for-flask-run-on-windows
+https://stackoverflow.com/questions/51025893/flask-at-first-run-do-not-use-the-development-server-in-a-production-environmen
+https://stackoverflow.com/questions/49478343/windows-doesnt-recognize-docker-command
