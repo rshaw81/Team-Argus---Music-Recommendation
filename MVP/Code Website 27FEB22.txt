@@ -1,0 +1,3 @@
+Using Visual Studio Code and Microsoft Azure App, we had created an web app as shown here
+
+https://firstazurewebappbytab.azurewebsites.net/
