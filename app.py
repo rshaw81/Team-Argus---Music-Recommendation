@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 import numpy as np
 import pandas as pd
 import spotipy
@@ -9,9 +7,9 @@ from flask import Flask, request
 from flask import Flask, request, jsonify, render_template
 
 
-spotify_data = pd.read_csv('C:/Users/Dheeraj/Downloads/data.csv')
-genre_data = pd.read_csv('C:/Users/Dheeraj/Downloads/data_by_genres.csv')
-data_by_year = pd.read_csv('C:/Users/Dheeraj/Downloads/data_by_year.csv')
+spotify_data = pd.read_csv('data.csv')
+genre_data = pd.read_csv('data_by_genres.csv')
+data_by_year = pd.read_csv('data_by_year.csv')
 
 from sklearn.cluster import KMeans
 from sklearn.preprocessing import StandardScaler
