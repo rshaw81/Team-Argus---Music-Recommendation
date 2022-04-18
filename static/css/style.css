@@ -1,0 +1,130 @@
+body {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+html {
+    height: 100%;
+    border: 1px solid transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: auto;
+}
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    margin: auto;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    position: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.back-video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+}
+.content {
+    position: absolute;
+    top: auto;
+    left: auto;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+input {
+    width: 30%;
+    height: 24px;
+    margin: auto;
+    position: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 14px;
+    align-items: center;
+    font-size: 18px;
+}
+.button {
+    width: 140px;
+    height: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: bold;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    margin: auto;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button:hover {
+    background-color: hsl(103, 100%, 50%);
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: rgb(0, 0, 0);
+    transform: translateY(-7px);
+}
+.feedback {
+    margin: auto;
+    margin-top: 14px;
+    position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.feedback_button_like {
+    margin: 5px;
+    display: flex;
+    align-items: center;
+}
+.feedback_button_like:hover {
+    background-color: hsl(103, 100%, 50%);
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: rgb(0, 0, 0);
+    transform: translateY(-7px);
+}
+.feedback_button_dislike {
+    margin: 5px;
+    display: flex;
+    align-items: center;
+}
+.feedback_button_dislike:hover {
+    background-color: hsl(0, 100%, 50%);
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: rgb(0, 0, 0);
+    transform: translateY(-7px);
+}
+.output{
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, 0);
+    color: white;
+}
