@@ -17,4 +17,4 @@ Once the python file is run, the application can be executed on your local serve
 On the web application, enter the name of your favorite song and year to get music recommendations.
 
 ### Deployed Webpage
-The web application is deployed using Microsoft Azure Cloud services and is live at 'argusm.azurewebsites.net'
+The web application is deployed using Microsoft Azure Cloud services and is live at 'https://argusm.azurewebsites.net'
