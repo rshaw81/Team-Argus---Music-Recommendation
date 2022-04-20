@@ -1,7 +1,7 @@
 # Team-Argus---Music-Recommendation
 This repository will contain code, powerpoint presentations, and descriptions for our group project. 
 
-#### Setup
+### Setup
 
 ##### Step-1
 First, clone this repository onto your local drive.
@@ -16,5 +16,5 @@ Once the python file is run, the application can be executed on your local serve
 ##### Step-6
 On the web application, enter the name of your favorite song and year to get music recommendations.
 
-#### Deployed Webpage
+### Deployed Webpage
 The web application is deployed using Microsoft Azure Cloud services and is live at 'argusm.azurewebsites.net'
